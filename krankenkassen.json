@@ -1,0 +1,1373 @@
+{
+  "updated_at": "2026-06-16",
+  "data": {
+    "data": [
+      {
+        "bbnr": "33868451",
+        "name": "AKA",
+        "slug": "aka",
+        "typ": "GKV",
+        "kassenart": "21",
+        "zusatzbeitrag": null,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": null,
+        "name": "AOK Baden-Wuerttemberg",
+        "slug": "aok-bw",
+        "typ": "GKV",
+        "kassenart": null,
+        "zusatzbeitrag": 2.99,
+        "website": "https://www.aok.de/bw",
+        "aktiv": true
+      },
+      {
+        "bbnr": "67450665",
+        "name": "AOK Baden-Württemberg",
+        "slug": "aok-baden-wurttemberg",
+        "typ": "GKV",
+        "kassenart": "14",
+        "zusatzbeitrag": 2.99,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": null,
+        "name": "AOK Bayern",
+        "slug": "aok-by",
+        "typ": "GKV",
+        "kassenart": null,
+        "zusatzbeitrag": 2.69,
+        "website": "https://www.aok.de/by",
+        "aktiv": true
+      },
+      {
+        "bbnr": "87880235",
+        "name": "AOK Bayern Die Gesundheitskasse",
+        "slug": "aok-bayern-die-gesundheitskasse",
+        "typ": "GKV",
+        "kassenart": "14",
+        "zusatzbeitrag": 2.69,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": null,
+        "name": "AOK Bremen/Bremerhaven",
+        "slug": "aok-hb",
+        "typ": "GKV",
+        "kassenart": null,
+        "zusatzbeitrag": 3.29,
+        "website": "https://www.aok.de/bremen",
+        "aktiv": true
+      },
+      {
+        "bbnr": "20012084",
+        "name": "AOK Bremen/Bremerhaven",
+        "slug": "aok-bremenbremerhaven",
+        "typ": "GKV",
+        "kassenart": "14",
+        "zusatzbeitrag": 3.29,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": "45118687",
+        "name": "AOK Hessen",
+        "slug": "aok-hessen",
+        "typ": "GKV",
+        "kassenart": "14",
+        "zusatzbeitrag": 2.98,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": null,
+        "name": "AOK Hessen",
+        "slug": "aok-he",
+        "typ": "GKV",
+        "kassenart": null,
+        "zusatzbeitrag": 2.98,
+        "website": "https://www.aok.de/hessen",
+        "aktiv": true
+      },
+      {
+        "bbnr": "29720865",
+        "name": "AOK Niedersachsen",
+        "slug": "aok-niedersachsen",
+        "typ": "GKV",
+        "kassenart": "14",
+        "zusatzbeitrag": 2.98,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": null,
+        "name": "AOK Niedersachsen",
+        "slug": "aok-ni",
+        "typ": "GKV",
+        "kassenart": null,
+        "zusatzbeitrag": 2.98,
+        "website": "https://www.aok.de/niedersachsen",
+        "aktiv": true
+      },
+      {
+        "bbnr": "33526082",
+        "name": "AOK NordWest",
+        "slug": "aok-nordwest",
+        "typ": "GKV",
+        "kassenart": "14",
+        "zusatzbeitrag": 2.99,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": null,
+        "name": "AOK NordWest",
+        "slug": "aok-nw",
+        "typ": "GKV",
+        "kassenart": null,
+        "zusatzbeitrag": 2.99,
+        "website": "https://www.aok.de/nordwest",
+        "aktiv": true
+      },
+      {
+        "bbnr": "90235319",
+        "name": "AOK Nordost",
+        "slug": "aok-nordost",
+        "typ": "GKV",
+        "kassenart": "14",
+        "zusatzbeitrag": 3.5,
+        "website": "https://www.aok.de/nordost",
+        "aktiv": true
+      },
+      {
+        "bbnr": "05174740",
+        "name": "AOK PLUS",
+        "slug": "aok-plus",
+        "typ": "GKV",
+        "kassenart": "14",
+        "zusatzbeitrag": 3.1,
+        "website": "https://www.aokplus-online.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "51605725",
+        "name": "AOK Rheinland-Pfalz/Saarland",
+        "slug": "aok-rheinland-pfalzsaarland",
+        "typ": "GKV",
+        "kassenart": "14",
+        "zusatzbeitrag": 2.47,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": null,
+        "name": "AOK Rheinland-Pfalz/Saarland",
+        "slug": "aok-rps",
+        "typ": "GKV",
+        "kassenart": null,
+        "zusatzbeitrag": 2.47,
+        "website": "https://www.aok.de/rps",
+        "aktiv": true
+      },
+      {
+        "bbnr": null,
+        "name": "AOK Rheinland/Hamburg",
+        "slug": "aok-rh",
+        "typ": "GKV",
+        "kassenart": null,
+        "zusatzbeitrag": 3.29,
+        "website": "https://www.aok.de/rheinland-hamburg",
+        "aktiv": true
+      },
+      {
+        "bbnr": "34364249",
+        "name": "AOK Rheinland/Hamburg Die Gesundheitskasse",
+        "slug": "aok-rheinlandhamburg-die-gesundheitskasse",
+        "typ": "GKV",
+        "kassenart": "14",
+        "zusatzbeitrag": 3.29,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": null,
+        "name": "AOK Sachsen-Anhalt",
+        "slug": "aok-st",
+        "typ": "GKV",
+        "kassenart": null,
+        "zusatzbeitrag": 2.89,
+        "website": "https://www.aok.de/sachsen-anhalt",
+        "aktiv": true
+      },
+      {
+        "bbnr": "01029141",
+        "name": "AOK Sachsen-Anhalt",
+        "slug": "aok-sachsen-anhalt",
+        "typ": "GKV",
+        "kassenart": "14",
+        "zusatzbeitrag": 2.89,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": "82889062",
+        "name": "Audi BKK",
+        "slug": "audi-bkk",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 2.6,
+        "website": "https://www.audibkk.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "49003443",
+        "name": "BAHN-BKK",
+        "slug": "bahn-bkk",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.65,
+        "website": "https://www.bahn-bkk.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "42938966",
+        "name": "BARMER",
+        "slug": "barmer",
+        "typ": "GKV",
+        "kassenart": "16",
+        "zusatzbeitrag": 3.29,
+        "website": "https://www.barmer.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "42039708",
+        "name": "BERGISCHE KRANKENKASSE",
+        "slug": "bergische-krankenkasse",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.79,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": null,
+        "name": "BIG direkt gesund",
+        "slug": "big-direkt",
+        "typ": "GKV",
+        "kassenart": null,
+        "zusatzbeitrag": 3.69,
+        "website": "https://www.big-direkt.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "97141402",
+        "name": "BIG direkt gesund",
+        "slug": "big-direkt-gesund",
+        "typ": "GKV",
+        "kassenart": "17",
+        "zusatzbeitrag": 3.69,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": null,
+        "name": "BKK Akzo Nobel",
+        "slug": "bkk-akzo-nobel",
+        "typ": "GKV",
+        "kassenart": null,
+        "zusatzbeitrag": 3.39,
+        "website": "https://www.bkk-akzo.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "71579930",
+        "name": "BKK Akzo Nobel Bayern",
+        "slug": "bkk-akzo-nobel-bayern",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.39,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": "47034975",
+        "name": "BKK B. Braun Aesculap",
+        "slug": "bkk-b-braun-aesculap",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.65,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": "34401277",
+        "name": "BKK Deutsche Bank AG",
+        "slug": "bkk-deutsche-bank-ag",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.4,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": "31323686",
+        "name": "BKK Diakonie",
+        "slug": "bkk-diakonie",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.8,
+        "website": "https://www.bkk-diakonie.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": null,
+        "name": "BKK Duerkopp Adler",
+        "slug": "bkk-duerkopp-adler",
+        "typ": "GKV",
+        "kassenart": null,
+        "zusatzbeitrag": 3.88,
+        "website": "https://www.bkk-da.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "31323799",
+        "name": "BKK DürkoppAdler",
+        "slug": "bkk-durkoppadler",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.88,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": "30168049",
+        "name": "BKK EUREGIO",
+        "slug": "bkk-euregio",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.39,
+        "website": "https://www.bkk-euregio.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "26515319",
+        "name": "BKK EWE",
+        "slug": "bkk-ewe",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.19,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": "63922962",
+        "name": "BKK FREUDENBERG",
+        "slug": "bkk-freudenberg",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 2.99,
+        "website": "https://www.bkk-freudenberg.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "86772584",
+        "name": "BKK Faber-Castell & Partner",
+        "slug": "bkk-faber-castell-partner",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 2.48,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": null,
+        "name": "BKK Faber-Castell & Partner",
+        "slug": "bkk-faber-castell",
+        "typ": "GKV",
+        "kassenart": null,
+        "zusatzbeitrag": 2.48,
+        "website": "https://www.bkk-faber-castell.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "31323802",
+        "name": "BKK GILDEMEISTER SEIDENSTICKER",
+        "slug": "bkk-gildemeister-seidensticker",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.4,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": null,
+        "name": "BKK Gildemeister Seidensticker",
+        "slug": "bkk-gs",
+        "typ": "GKV",
+        "kassenart": null,
+        "zusatzbeitrag": 3.4,
+        "website": "https://www.bkk-gs.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "60393261",
+        "name": "BKK Groz-Beckert",
+        "slug": "bkk-groz-beckert",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.4,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": "47034953",
+        "name": "BKK Herkules",
+        "slug": "bkk-herkules",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 4.38,
+        "website": "https://www.bkk-herkules.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "48698889",
+        "name": "BKK Linde",
+        "slug": "bkk-linde",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 2.99,
+        "website": "https://www.bkk-linde.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "65710574",
+        "name": "BKK MTU",
+        "slug": "bkk-mtu",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 2.8,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": "31323700",
+        "name": "BKK Miele",
+        "slug": "bkk-miele",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 4.2,
+        "website": "https://www.bkk-miele.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": null,
+        "name": "BKK Mobil Oil",
+        "slug": "bkk-mobil-oil",
+        "typ": "GKV",
+        "kassenart": null,
+        "zusatzbeitrag": 3.89,
+        "website": "https://www.bkk-mobil-oil.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "51588416",
+        "name": "BKK PFAFF",
+        "slug": "bkk-pfaff",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 2.78,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": "52598579",
+        "name": "BKK Pfalz",
+        "slug": "bkk-pfalz",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.9,
+        "website": "https://www.bkk-pfalz.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "88571250",
+        "name": "BKK ProVita",
+        "slug": "bkk-provita",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.79,
+        "website": "https://www.bkk-provita.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "21488086",
+        "name": "BKK Public",
+        "slug": "bkk-public",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 2.5,
+        "website": "https://www.bkk-public.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "47307817",
+        "name": "BKK PwC",
+        "slug": "bkk-pwc",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 2.8,
+        "website": "https://www.bkk-pwc.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": null,
+        "name": "BKK R+V",
+        "slug": "bkk-rv",
+        "typ": "GKV",
+        "kassenart": null,
+        "zusatzbeitrag": 2.5,
+        "website": "https://www.meine-krankenkasse.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "66626976",
+        "name": "BKK Rieker.RICOSTA.Weisser",
+        "slug": "bkk-riekerricostaweisser",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 4.2,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": "21203214",
+        "name": "BKK Salzgitter",
+        "slug": "bkk-salzgitter",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.5,
+        "website": "https://www.bkk-salzgitter.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "61232758",
+        "name": "BKK Scheufelen",
+        "slug": "bkk-scheufelen",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.99,
+        "website": "https://www.bkk-scheufelen.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "66614249",
+        "name": "BKK Schwarzwald-Baar-Heuberg",
+        "slug": "bkk-schwarzwald-baar-heuberg",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 2.79,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": null,
+        "name": "BKK Schwarzwald-Baar-Heuberg",
+        "slug": "bkk-sbh",
+        "typ": "GKV",
+        "kassenart": null,
+        "zusatzbeitrag": 2.79,
+        "website": "https://www.bkk-sbh.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "23446040",
+        "name": "BKK Technoform",
+        "slug": "bkk-technoform",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.49,
+        "website": "https://www.bkk-technoform.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "37416328",
+        "name": "BKK VDN",
+        "slug": "bkk-vdn",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.19,
+        "website": "https://www.bkk-vdn.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "69785429",
+        "name": "BKK VerbundPlus",
+        "slug": "bkk-verbundplus",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.89,
+        "website": "https://www.bkk-verbundplus.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "44037562",
+        "name": "BKK Werra-Meissner",
+        "slug": "bkk-werra-meissner",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 4.35,
+        "website": "https://www.bkk-werra-meissner.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": null,
+        "name": "BKK Wirtschaft & Finanzen",
+        "slug": "bkk-wf",
+        "typ": "GKV",
+        "kassenart": null,
+        "zusatzbeitrag": 3.99,
+        "website": "https://www.bkk-wf.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "46967693",
+        "name": "BKK Wirtschaft & Finanzen",
+        "slug": "bkk-wirtschaft-finanzen",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.99,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": "67161380",
+        "name": "BKK Würth",
+        "slug": "bkk-wurth",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.4,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": null,
+        "name": "BKK ZF & Partner",
+        "slug": "bkk-zf",
+        "typ": "GKV",
+        "kassenart": null,
+        "zusatzbeitrag": 2.4,
+        "website": "https://www.bkk-zf-partner.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "51980490",
+        "name": "BKK evm",
+        "slug": "bkk-evm",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 2.5,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": "22178373",
+        "name": "BKK exklusiv",
+        "slug": "bkk-exklusiv",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.49,
+        "website": "https://www.bkk-exklusiv.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "20156168",
+        "name": "BKK firmus",
+        "slug": "bkk-firmus",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 2.8,
+        "website": "https://www.bkk-firmus.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "23709856",
+        "name": "BKK24",
+        "slug": "bkk24",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 4.39,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": "87271125",
+        "name": "BMW BKK",
+        "slug": "bmw-bkk",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.9,
+        "website": "https://www.bmwbkk.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "67572593",
+        "name": "BOSCH BKK",
+        "slug": "bosch-bkk",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.18,
+        "website": "https://www.bosch-bkk.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "74138265",
+        "name": "BPOL HFS",
+        "slug": "bpol-hfs",
+        "typ": "GKV",
+        "kassenart": "22",
+        "zusatzbeitrag": null,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": "31323584",
+        "name": "Bertelsmann BKK",
+        "slug": "bertelsmann-bkk",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.2,
+        "website": "https://www.bertelsmann-bkk.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": null,
+        "name": "Continental BKK",
+        "slug": "continental-bkk",
+        "typ": "GKV",
+        "kassenart": null,
+        "zusatzbeitrag": 3.33,
+        "website": "https://www.continental-bkk.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "33865367",
+        "name": "Continentale Betriebskrankenkasse",
+        "slug": "continentale-betriebskrankenkasse",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.33,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": "48698890",
+        "name": "DAK-Gesundheit",
+        "slug": "dak-gesundheit",
+        "typ": "GKV",
+        "kassenart": "16",
+        "zusatzbeitrag": 3.2,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": null,
+        "name": "DAK-Gesundheit",
+        "slug": "dak",
+        "typ": "GKV",
+        "kassenart": null,
+        "zusatzbeitrag": 3.2,
+        "website": "https://www.dak.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": null,
+        "name": "Daimler BKK",
+        "slug": "daimler-bkk",
+        "typ": "GKV",
+        "kassenart": null,
+        "zusatzbeitrag": 2.3,
+        "website": "https://www.daimler-bkk.com",
+        "aktiv": true
+      },
+      {
+        "bbnr": "52156763",
+        "name": "Debeka BKK",
+        "slug": "debeka-bkk",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.25,
+        "website": "https://www.debeka-bkk.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": null,
+        "name": "Die Bergische Krankenkasse",
+        "slug": "bergische-kk",
+        "typ": "GKV",
+        "kassenart": null,
+        "zusatzbeitrag": 3.79,
+        "website": "https://www.bergische-krankenkasse.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "46939789",
+        "name": "EY BKK",
+        "slug": "ey-bkk",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 2.75,
+        "website": "https://www.ey-bkk.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "15031806",
+        "name": "HEK",
+        "slug": "hek",
+        "typ": "GKV",
+        "kassenart": "16",
+        "zusatzbeitrag": 2.89,
+        "website": "https://www.hek.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": null,
+        "name": "Heimat Krankenkasse",
+        "slug": "heimat-kk",
+        "typ": "GKV",
+        "kassenart": null,
+        "zusatzbeitrag": 3.9,
+        "website": "https://www.heimat-krankenkasse.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "31209131",
+        "name": "Heimat Krankenkasse",
+        "slug": "heimat-krankenkasse",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.9,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": "14228571",
+        "name": "IKK - Die Innovationskasse",
+        "slug": "ikk-die-innovationskasse",
+        "typ": "GKV",
+        "kassenart": "17",
+        "zusatzbeitrag": 4.3,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": "01020803",
+        "name": "IKK BB",
+        "slug": "ikk-bb",
+        "typ": "GKV",
+        "kassenart": "17",
+        "zusatzbeitrag": 4.35,
+        "website": "https://www.ikk-bb.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": null,
+        "name": "IKK Suedwest",
+        "slug": "ikk-suedwest",
+        "typ": "GKV",
+        "kassenart": null,
+        "zusatzbeitrag": 3.87,
+        "website": "https://www.ikk-suedwest.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "55811201",
+        "name": "IKK Südwest",
+        "slug": "ikk-sudwest",
+        "typ": "GKV",
+        "kassenart": "17",
+        "zusatzbeitrag": 3.87,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": "01049203",
+        "name": "IKK classic",
+        "slug": "ikk-classic",
+        "typ": "GKV",
+        "kassenart": "17",
+        "zusatzbeitrag": 3.4,
+        "website": "https://www.ikk-classic.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": null,
+        "name": "IKK gesund plus",
+        "slug": "ikk-gesund-plus",
+        "typ": "GKV",
+        "kassenart": null,
+        "zusatzbeitrag": 3.39,
+        "website": "https://www.ikk-gesundplus.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "01000455",
+        "name": "IKK gesund plus (Ost)",
+        "slug": "ikk-gesund-plus-ost",
+        "typ": "GKV",
+        "kassenart": "17",
+        "zusatzbeitrag": 3.39,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": "48063096",
+        "name": "KARL MAYER BKK",
+        "slug": "karl-mayer-bkk",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 2.99,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": "29137937",
+        "name": "KKH",
+        "slug": "kkh",
+        "typ": "GKV",
+        "kassenart": "16",
+        "zusatzbeitrag": 3.78,
+        "website": "https://www.kkh.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": null,
+        "name": "Knappschaft",
+        "slug": "knappschaft",
+        "typ": "GKV",
+        "kassenart": null,
+        "zusatzbeitrag": 4.3,
+        "website": "https://www.knappschaft.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "98000006",
+        "name": "Knappschaft (allg. Verf. einschl. Minijobs)",
+        "slug": "knappschaft-allg-verf-einschl-minijobs",
+        "typ": "GKV",
+        "kassenart": "18",
+        "zusatzbeitrag": 4.3,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": "98094032",
+        "name": "Knappschaft (bes. knappschaftl. Meldeverf.)",
+        "slug": "knappschaft-bes-knappschaftl-meldeverf",
+        "typ": "GKV",
+        "kassenart": "18",
+        "zusatzbeitrag": 4.3,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": null,
+        "name": "Koenig & Bauer BKK",
+        "slug": "kba-bkk",
+        "typ": "GKV",
+        "kassenart": null,
+        "zusatzbeitrag": 3.18,
+        "website": "https://www.kba-bkk.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "75925585",
+        "name": "Koenig & Bauer BKK",
+        "slug": "koenig-bauer-bkk",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.18,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": "74157435",
+        "name": "Krones BKK",
+        "slug": "krones-bkk",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 2.2,
+        "website": "https://www.krones-bkk.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "67572537",
+        "name": "MAHLE BKK",
+        "slug": "mahle-bkk",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 4.2,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": "68216980",
+        "name": "Mercedes-Benz BKK",
+        "slug": "mercedes-benz-bkk",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.2,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": "44377882",
+        "name": "Merck BKK",
+        "slug": "merck-bkk",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.97,
+        "website": "https://www.merck-bkk.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "15517302",
+        "name": "Mobil Krankenkasse",
+        "slug": "mobil-krankenkasse",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.89,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": "35134022",
+        "name": "NOVITAS BKK",
+        "slug": "novitas-bkk",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.6,
+        "website": "https://www.novitas-bkk.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": null,
+        "name": "R+V BKK",
+        "slug": "ruv-bkk",
+        "typ": "GKV",
+        "kassenart": null,
+        "zusatzbeitrag": 3.49,
+        "website": "https://www.ruv-bkk.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "48944809",
+        "name": "R+V Betriebskrankenkasse",
+        "slug": "rv-betriebskrankenkasse",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.49,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": "87954699",
+        "name": "SBK",
+        "slug": "sbk",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.8,
+        "website": "https://www.sbk.org",
+        "aktiv": true
+      },
+      {
+        "bbnr": "15517482",
+        "name": "SECURVITA BKK",
+        "slug": "securvita-bkk",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.9,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": "74773896",
+        "name": "SKD BKK",
+        "slug": "skd-bkk",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 2.98,
+        "website": "https://www.skd-bkk.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "01000650",
+        "name": "SVLFG-LKK (ehemals Gartenbau)",
+        "slug": "svlfg-lkk-ehemals-gartenbau",
+        "typ": "GKV",
+        "kassenart": "20",
+        "zusatzbeitrag": null,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": "72360029",
+        "name": "SVLFG-LKK, Bayreuth",
+        "slug": "svlfg-lkk-bayreuth",
+        "typ": "GKV",
+        "kassenart": "20",
+        "zusatzbeitrag": null,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": "47068420",
+        "name": "SVLFG-LKK, Darmstadt",
+        "slug": "svlfg-lkk-darmstadt",
+        "typ": "GKV",
+        "kassenart": "20",
+        "zusatzbeitrag": null,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": "29147110",
+        "name": "SVLFG-LKK, Hannover",
+        "slug": "svlfg-lkk-hannover",
+        "typ": "GKV",
+        "kassenart": "20",
+        "zusatzbeitrag": null,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": "01000308",
+        "name": "SVLFG-LKK, Hoppegarten",
+        "slug": "svlfg-lkk-hoppegarten",
+        "typ": "GKV",
+        "kassenart": "20",
+        "zusatzbeitrag": null,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": "47069693",
+        "name": "SVLFG-LKK, Kassel",
+        "slug": "svlfg-lkk-kassel",
+        "typ": "GKV",
+        "kassenart": "20",
+        "zusatzbeitrag": null,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": "13199426",
+        "name": "SVLFG-LKK, Kiel",
+        "slug": "svlfg-lkk-kiel",
+        "typ": "GKV",
+        "kassenart": "20",
+        "zusatzbeitrag": null,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": "87119868",
+        "name": "SVLFG-LKK, Landshut",
+        "slug": "svlfg-lkk-landshut",
+        "typ": "GKV",
+        "kassenart": "20",
+        "zusatzbeitrag": null,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": "39873587",
+        "name": "SVLFG-LKK, Münster",
+        "slug": "svlfg-lkk-munster",
+        "typ": "GKV",
+        "kassenart": "20",
+        "zusatzbeitrag": null,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": "67574619",
+        "name": "SVLFG-LKK, Stuttgart",
+        "slug": "svlfg-lkk-stuttgart",
+        "typ": "GKV",
+        "kassenart": "20",
+        "zusatzbeitrag": null,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": "44953697",
+        "name": "Salus BKK",
+        "slug": "salus-bkk",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.29,
+        "website": "https://www.salus-bkk.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "62332660",
+        "name": "Südzucker BKK",
+        "slug": "sudzucker-bkk",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 2.9,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": "29074470",
+        "name": "TUI BKK",
+        "slug": "tui-bkk",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 2.5,
+        "website": "https://www.tui-bkk.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "15027365",
+        "name": "Techniker Krankenkasse",
+        "slug": "techniker-krankenkasse",
+        "typ": "GKV",
+        "kassenart": "16",
+        "zusatzbeitrag": 2.69,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": null,
+        "name": "Techniker Krankenkasse",
+        "slug": "tk",
+        "typ": "GKV",
+        "kassenart": null,
+        "zusatzbeitrag": 2.69,
+        "website": "https://www.tk.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "40180080",
+        "name": "VIACTIV Krankenkasse",
+        "slug": "viactiv-krankenkasse",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 4.19,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": null,
+        "name": "Viactiv Krankenkasse",
+        "slug": "viactiv",
+        "typ": "GKV",
+        "kassenart": null,
+        "zusatzbeitrag": 4.19,
+        "website": "https://www.viactiv.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "61232769",
+        "name": "WMF BKK",
+        "slug": "wmf-bkk",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.4,
+        "website": "https://www.wmf-bkk.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "69753266",
+        "name": "ZF BKK",
+        "slug": "zf-bkk",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.4,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": "36916935",
+        "name": "bkk melitta hmr",
+        "slug": "bkk-melitta-hmr",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.9,
+        "website": "https://www.bkk-melitta-hmr.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "29717581",
+        "name": "energie-BKK",
+        "slug": "energie-bkk",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.98,
+        "website": "https://www.energie-bkk.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "20013461",
+        "name": "hkk",
+        "slug": "hkk",
+        "typ": "GKV",
+        "kassenart": "16",
+        "zusatzbeitrag": 2.59,
+        "website": "https://www.hkk.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "63494759",
+        "name": "mhplus BKK",
+        "slug": "mhplus-bkk",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.86,
+        "website": "https://www.mhplus-bkk.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "92644250",
+        "name": "mkk - meine krankenkasse",
+        "slug": "mkk-meine-krankenkasse",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.5,
+        "website": null,
+        "aktiv": true
+      },
+      {
+        "bbnr": "15872672",
+        "name": "pronova BKK",
+        "slug": "pronova-bkk",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.7,
+        "website": "https://www.pronovabkk.de",
+        "aktiv": true
+      },
+      {
+        "bbnr": "66458477",
+        "name": "vivida bkk",
+        "slug": "vivida-bkk",
+        "typ": "GKV",
+        "kassenart": "15",
+        "zusatzbeitrag": 3.79,
+        "website": "https://www.vivida-bkk.de",
+        "aktiv": true
+      }
+    ],
+    "meta": {
+      "total": 136,
+      "per_page": 200,
+      "current_page": 1,
+      "last_page": 1
+    }
+  }
+}
