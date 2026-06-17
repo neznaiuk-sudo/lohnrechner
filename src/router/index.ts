@@ -7,6 +7,9 @@
 // Composables
 import { createRouter, createWebHistory } from 'vue-router'
 import Index from '@/pages/index.vue'
+import Rechner from '@/pages/Rechner.vue'
+import FRechner from '@/pages/FRechner.vue'
+
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -14,6 +17,14 @@ const router = createRouter({
     {
       path: '/',
       component: Index,
+    },
+    {
+      path: '/Rechner',
+      component: Rechner,
+    },
+    {
+      path: '/FRechner',
+      component: FRechner,
     },
   ],
 })

@@ -3,11 +3,11 @@
     <div>
       <v-row>
         <v-col cols="12">
-          <v-btn to="/InxRechner" router>
-            InxRechner
+          <v-btn to="/FRechner" router>
+            FRechner
           </v-btn>
           <v-btn to="/Rechner" router>
-            Rechner Test
+            Rechner
           </v-btn>
         </v-col>
       </v-row>

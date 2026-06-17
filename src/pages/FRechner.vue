@@ -150,7 +150,6 @@
 
 <script>
 export default {
-  name: 'InxRechner',
   data() {
     return {
       inputs: {
