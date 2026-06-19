@@ -48,8 +48,10 @@ let AF,
   KRV,
   KVZ = ref(0),
   LZZ = ref(2),
-  LZZFREIB = 0, //default bei 0 manuele eingbe muss noch entwickelt werden
-  LZZHINZU = 0, //default bei 0 manuele eingbe muss noch entwickelt werden
+  rawLZZHINZU = ref(0),
+  rawLZZFREIB = ref(0),
+  LZZFREIB:number = 0, //default bei 0 manuele eingbe muss noch entwickelt werden
+  LZZHINZU:number = 0, //default bei 0 manuele eingbe muss noch entwickelt werden
   MBV,
   PKPV,
   PKPVAGZ,
@@ -67,8 +69,9 @@ let AF,
   VBEZ = 0,
   VBEZM,
   VBEZS,
+  isVSB = ref(0),
   VBS,
-  VJAHR,
+  VJAHR = ref(),
   ZKF,
   ZMVB
 
@@ -96,10 +99,10 @@ let ALTE,
   BMG,
   DIFF,
   EFA,
-  FVB,
-  FVBSO,
-  FVBZ,
-  FVBZSO,
+  FVB:number,
+  FVBSO:number,
+  FVBZ:number,
+  FVBZSO:number,
   HBALTE,
   HFVB,
   HFVBZ,
@@ -164,8 +167,21 @@ let ALTE,
     RE4 = value * 100
   })
   watch(PVZ, (value) =>{
-    if (value == 0){
-      PVA = ref(0)
+    if (value == 0 || typeof(value) === "undefined"){
+      PVA.value = 0
+      PVZ.value = 0
+    }
+  })
+  watch(rawLZZFREIB, (value) =>{
+    LZZFREIB = value * 100
+  })
+  watch(rawLZZHINZU, (value) =>{
+    LZZHINZU = value * 100
+  })
+  watch(isVSB, (value) =>{
+    if(value === 0 || typeof(value) === "undefined"){
+      VJAHR.value = undefined
+      isVSB.value = 0
     }
   })
 
@@ -216,6 +232,30 @@ let ALTE,
 
   }
 
+  function MRE4() {
+    alert("MRE4 start")
+    ZVBEZ = 200
+    alert(ZVBEZ)
+    VJAHR.value = 2005
+    if (ZVBEZ === 0){
+      FVBZ = 0
+      FVB = 0
+      FVBZSO = 0
+      FVBSO = 0
+    }
+    else{
+      switch (VJAHR.value){
+        case VJAHR.value < 2006:
+          J = 1
+          alert("<2006")
+          break;
+        case VJAHR.value < 2058:
+          alert("<2058")
+        break;
+      }
+    }
+  }
+
   //hollt alle krankenkassen vom .json file
   const items = krankenkassen.data.data
   .filter(k => k.zusatzbeitrag != null)
@@ -226,6 +266,7 @@ let ALTE,
 
   const rules = {
     required: value => !!value || 'Field is required',
+    year: value => /^\d{4}$/.test(String(value)) || 'Das Jahr muss 4-stellig sein',
   }
 
 </script>
@@ -233,7 +274,7 @@ let ALTE,
 <template>
   <v-container>
     <v-row>
-      <v-col>
+      <v-col-2>
         <v-select 
           :items="LZZItems"
           v-model="LZZ"
@@ -253,6 +294,22 @@ let ALTE,
           :rules="[rules.required]"
           clearable
         />
+        <v-text-field
+          v-model.number="rawLZZFREIB"
+          type="number"
+          label="Freibetrag"
+          variant="outlined"
+          prefix="€"
+          clearable
+        />
+        <v-text-field
+          v-model.number="rawLZZHINZU"
+          type="number"
+          label="Hinzubetrag"
+          variant="outlined"
+          prefix="€"
+          clearable
+        />
   
         <v-text-field
             v-model="KVZ"
@@ -264,7 +321,7 @@ let ALTE,
           />
 
         <v-select
-                
+          disabled 
           v-model="KVZ"
           :items="items"
           label="KV-Zusatzbeitrag"
@@ -286,7 +343,7 @@ let ALTE,
         </v-select>
 
         
-        <div class="kinder">
+        <div class="fragen kinder">
           <p>Haben Sie Kinder?</p>
 
           <v-btn-toggle
@@ -315,20 +372,58 @@ let ALTE,
           variant="outlined"
         />
 
-      </v-col>
-        <div class="ausgabe" >
+        <div class="fragen versorgungsbezuegen">
+          <p>Erhalten Sie Versorgungsbezüge?</p>
+          <v-btn-toggle
+            v-model="isVSB"
+            color="primary"
+            class="ml-5"
+            density="compact"
+          >
+            <v-btn :value="0">
+              Nein
+            </v-btn>
+
+            <v-btn :value="1">
+              Ja
+            </v-btn>
+          </v-btn-toggle>
+        </div>
+        <v-text-field
+          v-if="isVSB"
+          v-model.number="VJAHR"
+          type="number"
+          label="Jahr der Versorgungsveginns"
+          variant="outlined"
+          prefix="J"
+          placeholder="xxxx"
+          clearable
+          :rules="[rules.year]"
+        />
+      </v-col-2>
+
+      <v-col>
+        <div class="ausgabe">
           <p>Lohnzeitraum LZZ: {{ LZZ }}</p>
           <p>Bruttogehalt RawRE4: {{ rawRE4 }}</p>
           <p>Bruttogehalt in Cent RE4: {{ RE4 }}</p>
           <p>Krankenkasse KVZ: {{ KVZ }} %</p>
           <p>Beitragsabschläge PVA: {{ PVA }}</p>
           <p>Kinder PVZ: {{ PVZ }}</p>
-        </div>
-      <v-col>
+          <p>Freibetrag : {{ LZZFREIB }} - raw ({{ rawLZZFREIB }})</p>
+          <p>Hinzubetrag: {{ LZZHINZU }} - raw ({{ rawLZZHINZU }})</p>
+          <p>Versorgungsbezüge: {{ isVSB }}</p>
+          <p>Jahr der Versorgungsveginns VJAHR : {{ VJAHR }} {{ typeof(VJAHR) }}</p>
 
+
+
+        </div>
       </v-col>
     </v-row>
   </v-container>
+  <v-btn @click="MRE4">
+    MRE4 funktion
+  </v-btn>
   <!--<pre>{{ items }}</pre>-->
 </template>
 
@@ -342,10 +437,10 @@ let ALTE,
 :deep(.v-field input[type="number"]) {
   -moz-appearance: textfield;
 }
-.kinder{
+.fragen{
   display: flex;
   align-items: center;
-  /*justify-content: space-between;*/
+  justify-content: space-between;
   margin-bottom: 10px;
   margin-left: 10px;
 }
