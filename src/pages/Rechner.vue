@@ -73,7 +73,7 @@ let AF,
   VBS,
   VJAHR = ref(),
   ZKF,
-  ZMVB
+  ZMVB = ref() 
 
 // 3.2 Ausgangsparameter
 let BK,
@@ -157,7 +157,7 @@ let ALTE,
   ZRE4VP,
   ZRE4VPR,
   ZTABFB,
-  ZVBEZ,
+  ZVBEZ:number = 0,
   ZVBEZJ,
   ZVE,
   ZX,
@@ -233,27 +233,36 @@ let ALTE,
   }
 
   function MRE4() {
-    alert("MRE4 start")
     ZVBEZ = 200
-    alert(ZVBEZ)
-    VJAHR.value = 2005
+    VJAHR.value = 2067 
+    alert("MRE4 start " + VJAHR.value + " " + ZVBEZ + " " )
+
     if (ZVBEZ === 0){
+      alert("ZVBEZ == 0")
       FVBZ = 0
       FVB = 0
       FVBZSO = 0
       FVBSO = 0
     }
     else{
-      switch (VJAHR.value){
-        case VJAHR.value < 2006:
-          J = 1
-          alert("<2006")
-          break;
-        case VJAHR.value < 2058:
-          alert("<2058")
-        break;
+      if(VJAHR.value < 2006){
+        J = 1
+        alert("<2006")
+      }else if(VJAHR.value < 2058){
+        J = VJAHR.value - 2004
+        alert("< 2058" + " J = " + J)
       }
+      else{
+        J = 54
+        alert("> 2058" + " J = " + J)
+      }
+
+      if(LZZ.value === 1){
+        VBEZB = VBEZM * ZMVB + VBEZS
+      }
+
     }
+
   }
 
   //hollt alle krankenkassen vom .json file
@@ -399,6 +408,17 @@ let ALTE,
           placeholder="xxxx"
           clearable
           :rules="[rules.year]"
+        />
+        <v-text-field
+          v-if="isVSB && LZZ == 1"
+          v-model.number="ZMVB"
+          type="number"
+          label="Monatenzahl"
+          variant="outlined"
+          prefix="M"
+          placeholder="xx"
+          clearable
+          :rules="[rules.required]"
         />
       </v-col-2>
 
